@@ -1,0 +1,8 @@
+{
+  "name": "R\u0026K Salon North York",
+  "description": "R\u0026K Salon North York is a beauty salon located at 1 Holmes Ave, North York, ON M2N 5S1 in North York, Ontario. This salon has received positive reviews from clients in the North York area. Services offered include Hair Salon.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
