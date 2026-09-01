@@ -69,7 +69,7 @@ export const Navbar: React.FC<NavbarProps> = ({
           </a>
 
           {/* Desktop Links */}
-          <div className="hidden lg:flex items-center space-x-7 font-sans">
+          <div className="hidden xl:flex items-center space-x-5 2xl:space-x-7 font-sans">
             <a
               href="#heritage"
               className="text-xs uppercase tracking-[0.2em] hover:opacity-50 transition-opacity font-medium text-[#1D1D1D]/80 dark:text-white/80"
@@ -149,7 +149,7 @@ export const Navbar: React.FC<NavbarProps> = ({
             <button
               id="mobile-menu-toggle"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="lg:hidden p-2 text-[#1D1D1D] dark:text-white hover:text-[#9A8C73] focus:outline-none"
+              className="xl:hidden p-2 text-[#1D1D1D] dark:text-white hover:text-[#9A8C73] focus:outline-none"
               aria-label="Toggle menu"
             >
               {mobileMenuOpen ? <X size={22} /> : <Menu size={22} />}
@@ -159,7 +159,7 @@ export const Navbar: React.FC<NavbarProps> = ({
 
         {/* Mobile Drawer */}
         {mobileMenuOpen && (
-          <div className="lg:hidden absolute top-full left-0 w-full bg-[#FAF9F6] dark:bg-[#141414] border-b border-[#1D1D1D]/10 dark:border-white/10 px-6 py-6 shadow-2xl transition-all duration-300 z-50">
+          <div className="xl:hidden absolute top-full left-0 w-full bg-[#FAF9F6] dark:bg-[#141414] border-b border-[#1D1D1D]/10 dark:border-white/10 px-6 py-6 shadow-2xl transition-all duration-300 z-50">
             <div className="flex flex-col space-y-4 font-sans">
               <a
                 href="#heritage"
