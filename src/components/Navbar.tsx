@@ -159,7 +159,7 @@ export const Navbar: React.FC<NavbarProps> = ({
 
         {/* Mobile Drawer */}
         {mobileMenuOpen && (
-          <div className="lg:hidden bg-[#FAF9F6] dark:bg-[#141414] border-b border-[#1D1D1D]/10 dark:border-white/10 px-6 py-6 transition-all duration-300">
+          <div className="lg:hidden absolute top-full left-0 w-full bg-[#FAF9F6] dark:bg-[#141414] border-b border-[#1D1D1D]/10 dark:border-white/10 px-6 py-6 shadow-2xl transition-all duration-300 z-50">
             <div className="flex flex-col space-y-4 font-sans">
               <a
                 href="#heritage"
