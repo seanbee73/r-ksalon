@@ -54,7 +54,11 @@ export default function App() {
       const saved = localStorage.getItem('bmch_posts');
       if (saved) {
         try {
-          return JSON.parse(saved);
+          const parsed = JSON.parse(saved);
+          // Update post-1 image if it matches old default or needs updating
+          return parsed.map((p: SalonPost) => 
+            p.id === 'post-1' ? { ...p, imageUrl: DEFAULT_POSTS[0].imageUrl } : p
+          );
         } catch {
           return DEFAULT_POSTS;
         }

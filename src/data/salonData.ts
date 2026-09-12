@@ -543,7 +543,7 @@ export const DEFAULT_POSTS: SalonPost[] = [
     date: "August 28, 2026",
     excerpt: "Unwind during your shampoo treatment with our therapeutic massage chairs and complimentary hot tea.",
     content: "At R&K Salon North York (1 Holmes Ave), we believe a hair appointment should be a true oasis of relaxation. That's why every haircut and color service includes our signature shampoo wash on state-of-the-art therapeutic massage chairs.\n\nSip on a cup of complimentary hot tea while our stylists wash away the stress of the day. Stop by or book your session today!",
-    imageUrl: "https://images.unsplash.com/photo-1585747860715-2ba37e788b70?w=1000&q=80",
+    imageUrl: "https://ik.imagekit.io/kevfun/AHRPTWlaQ3DE-hOeu08RvUDqEk6BaUx80KPNLIlCiE_DAdkw8dFej__FKDDBAEbCmnwv8ohrAPukpJUdbqtv-ucy0Kx5GqoA-y1Q1M6HthNIgKqwDwNoUeWlCXmVyX2Ot7vfbPNKjmSDCQw1486-h947-k-no.jpg?updatedAt=1788221084381",
     tags: ["Massage Chairs", "Relaxation", "Complimentary Tea"],
     isPinned: true,
     isPublished: true,
